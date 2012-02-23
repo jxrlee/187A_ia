@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Generic Page</title>
-    <meta name="description" content="something good should go here">
-    <meta name="author" content="your name should go here">
+    <title>IA Redesign of Louisiana.edu</title>
+    <meta name="description" content="information architecture redesign of University of Louisiana">
+    <meta name="author" content="Joseph Lee, David Yoo, Samson Toor">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -12,6 +12,7 @@
     <![endif]-->
 
     <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/areset.css" >
     <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
     <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
 
@@ -36,9 +37,281 @@
   </head>
 
   <body>
+    <a name="home"></a>
+    
     <div class="container">
-
-      Put Stuff Here
+      
+      <div id="header" class="row">
+        <div class="span9 offset3">
+          <h1>Information Architecture Redesign of louisiana.edu</h1>
+          <h3 class="quote">by Joseph Lee, David Yoo, Samson Toor</h3>
+        </div>
+      </div>
+      
+      <div class="row">
+        
+        <div id="sidebar" class="span3">
+            <h3><a href="#home">home</a></h3>
+            <h3><a href="#personas">User Personas</a></h3>
+            <h3><a href="#analysis">Competitive Analysis</a></h3>
+            <h3><a href="decisions">Hardest Decisions</a></h3>
+            <h3><a href="#redesign">Site Redesign</a></h3>
+            <br />
+            <h5><a href="#home">to the top</a></h5>
+        </div> <!-- end sidebar -->
+        
+        <div id="content" class="span9 offset3">
+          
+          <div class="row section">
+            <div class="span9">
+              <a name="personas"></a>
+              <h2>User Personas and Scenarios</h2>
+              <p><a href="">Download User Personas PDF</a></p>
+            </div>
+          </div> <!-- end User Personas -->
+          
+          <div class="row section">
+            <div class="span9">
+              <a name="analysis"></a>
+              <h2>Competitive Analysis</h2>
+              <h4>Main Navigation</h4>
+              <p>We examined the main navigation bar that persists through all the secondary pages.</p>
+              <table class="section table table-striped table-bordered">
+                <tr>
+                  <th>UC Berkeley</th>
+                  <th>USC</th>
+                  <th>NYU</th>
+                  <th>Harvard</th>
+                  <th>Columbia</th>
+                </tr>
+                <tr>
+                  <td>about</td>
+                  <td>about</td>
+                  <td>about</td>
+                  <td>about</td>
+                  <td>about</td>
+                </tr>
+                <tr>
+                  <td>applying</td>
+                  <td>administration</td>
+                  <td>admissions</td>
+                  <td>admission &amp; aid</td>
+                  <td>admissions</td>
+                </tr>
+                <tr>
+                  <td>academics</td>
+                  <td>admission</td>
+                  <td>academics</td>
+                  <td>schools</td>
+                  <td>academics</td>
+                </tr>
+                <tr>
+                  <td>research</td>
+                  <td>academics</td>
+                  <td>university life</td>
+                  <td>resources &amp; offices</td>
+                  <td>research</td>
+                </tr>
+                <tr>
+                  <td>teaching</td>
+                  <td>research</td>
+                  <td>research</td>
+                  <td></td>
+                  <td>libraries</td>
+                </tr>
+                <tr>
+                  <td>working</td>
+                  <td>patient care</td>
+                  <td>global</td>
+                  <td></td>
+                  <td>medical center</td>
+                </tr>
+                <tr>
+                  <td>campus life</td>
+                  <td>community</td>
+                  <td></td>
+                  <td></td>
+                  <td>giving</td>
+                </tr>
+                <tr>
+                  <td>community</td>
+                  <td>arts</td>
+                  <td></td>
+                  <td></td>
+                  <td>arts</td>
+                </tr>
+                <tr>
+                  <td>visiting</td>
+                  <td>globalization</td>
+                  <td></td>
+                  <td></td>
+                  <td>athletics</td>
+                </tr>
+                <tr>
+                  <td>administration</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>columbia in NY</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>global</td>
+                </tr>
+              </table>
+            
+              <h4>Simplified Main Navigation Tally</h4>
+              <p>Only labels used by two or more sites are tallied.</p>
+              <table class="section table table-striped table-bordered">
+                <tr>
+                  <th>Main Navigation Labels</th>
+                  <th>Count</th>
+                </tr>
+                <tr>
+                  <td>about</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>admissions</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>research</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>academics</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>administration</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>global</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>university life</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>community</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>arts</td>
+                  <td>2</td>
+                </tr>
+                
+              </table>
+            
+              <h4>Secondary Navigation</h4>
+              <p>We examined the secondary navigation that appears on the home page and may or may not appear in secondary pages.</p>
+              <table class="section table table-striped table-bordered">
+                <tr>
+                  <th>UC Berkeley</th>
+                  <th>USC</th>
+                  <th>NYU</th>
+                  <th>Harvard</th>
+                  <th>Columbia</th>
+                </tr>
+                <tr>
+                  <td>students</td>
+                  <td>students</td>
+                  <td>students</td>
+                  <td>apply</td>
+                  <td>students</td>
+                </tr>
+                <tr>
+                  <td>prospective students</td>
+                  <td>alumni</td>
+                  <td>faculty</td>
+                  <td>faculty</td>
+                  <td>faculty &amp; staff</td>
+                </tr>
+                <tr>
+                  <td>faculty</td>
+                  <td>parents</td>
+                  <td>alumni</td>
+                  <td>staff</td>
+                  <td>alumni</td>
+                </tr>
+                <tr>
+                  <td>staff</td>
+                  <td>faculty</td>
+                  <td>employees</td>
+                  <td>students</td>
+                  <td>neighbors</td>
+                </tr>
+                <tr>
+                  <td>parents</td>
+                  <td>sports</td>
+                  <td>community</td>
+                  <td>alumni</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>alumni &amp; friends</td>
+                  <td></td>
+                  <td></td>
+                  <td>parents</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>visitors</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>media &amp; press</td>
+                  <td></td>
+                </tr>
+              </table>
+            
+              <h4>Simplified Secondary Navigation</h4>
+              <p>Only labels used by two or more sites are tallied.</p>
+              <table class="section table table-striped table-bordered">
+                <tr>
+                  <th>Secondary Navigation Labels</th>
+                  <th>Count</th>
+                </tr>
+                <tr>
+                  <td>students</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>alumni</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>faculty</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>parents</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>staff</td>
+                  <td>3</td>
+                </tr>
+              </table>
+              
+            </div>
+          </div>
+            
+        </div> <!-- end content -->
+        
+      </div> <!-- end row -->
 
     </div> <!-- end container -->
 
