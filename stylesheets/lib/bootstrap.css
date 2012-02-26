@@ -1575,15 +1575,16 @@ table .span12 {
 .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #0088cc;
+  background-color: #B02600;
 }
 .dropdown.open {
   *z-index: 1000;
 }
 .dropdown.open .dropdown-toggle {
   color: #ffffff;
-  background: #ccc;
-  background: rgba(0, 0, 0, 0.3);
+  !background: #ccc;
+  !background: rgba(0, 0, 0, 0.3);
+  background: #ffffff;
 }
 .dropdown.open .dropdown-menu {
   display: block;
@@ -2171,7 +2172,7 @@ button.btn.small, input[type="submit"].btn.small {
 }
 .nav-pills .active > a, .nav-pills .active > a:hover {
   color: #ffffff;
-  background-color: #0088cc;
+  /*background-color: #0088cc;*/
 }
 .nav-stacked > li {
   float: none;
@@ -2218,7 +2219,7 @@ button.btn.small, input[type="submit"].btn.small {
   border-radius: 4px;
 }
 .nav-tabs .dropdown-toggle .caret, .nav-pills .dropdown-toggle .caret {
-  border-top-color: #0088cc;
+  /*border-top-color: #0088cc;*/
   margin-top: 6px;
 }
 .nav-tabs .dropdown-toggle:hover .caret, .nav-pills .dropdown-toggle:hover .caret {
@@ -2595,6 +2596,7 @@ button.btn.small, input[type="submit"].btn.small {
 }
 .navbar .nav .active > .dropdown-toggle:hover {
   color: #ffffff;
+  background-color: #fff;
 }
 .navbar .nav.pull-right .dropdown-menu {
   left: auto;
