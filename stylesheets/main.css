@@ -19,5 +19,6 @@ ul { list-style-type: none; display: inline; }
 .section { margin-bottom: 50px; }
 .thumbnail { width: 210px; margin-right: 10px; }
 .quote { font-size: 18px; font-style: italic; color:#ccc; font-weight: 200; }
+.bold { font-weight: 600; }
 
 a, a:link, a:visited, a:active, a:hover { text-decoration: none; }
