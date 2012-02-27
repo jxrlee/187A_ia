@@ -83,6 +83,8 @@ a, a:link, a:visited, a:active { color: #999; }
 .pitch h1 { color: #000; }
 .pitch h4 { color: #C42A00; margin-bottom: 40px; }
 .pitch .pitch-subtext { color: #C42A00; }
+.nav li h2 a { color: #C42A00; }
+#footer2 { text-align: center; }
 
 #header-about { float:right; }
 .left-sidebar { padding-top: 20px; }
