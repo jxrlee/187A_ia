@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>IA Redesign of Louisiana.edu</title>
+    <meta name="description" content="information architecture redesign of University of Louisiana">
+    <meta name="author" content="Joseph Lee, David Yoo, Samson Toor">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/areset.css" >
+    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/main2.css" >
+
+
+    <!--  jQuery http://jquery.com/ -->
+    <script src="javascripts/lib/jquery-1.7.1.min.js"></script>
+
+    <!-- Bootstrap Javascripts http://twitter.github.com/bootstrap/javascript.html -->
+    <script src="javascripts/lib/bootstrap.js"></script>
+    <script src="javascripts/lib/bootstrap-dropdown.js"></script>
+    <script>$(function() { $('.dropdown-toggle').dropdown() })</script>
+    <script>
+      $(document).ready( function() {
+
+        $('#about').click( function() {
+          $('.left-sidebar > #about > .parent-nav').toggle();
+        });
+
+        $('#admission').click( function() {
+          $('.left-sidebar > #admission > .parent-nav').toggle();
+        });
+
+        $('#academics').click( function() {
+          $('.left-sidebar > #academics > .parent-nav').toggle();
+        });
+
+        $('#campus-life').click( function() {
+          $('.left-sidebar > #campus-life > .parent-nav').toggle();
+        });
+
+        $('#colleges').click( function() {
+          $('.left-sidebar > #colleges > .parent-nav').toggle();
+        });
+
+        $('#contact-us').click( function() {
+          $('.left-sidebar > #contact-us > .parent-nav').toggle();
+        });
+          
+      });
+
+
+    </script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+
+  </head>
+
+  <body>
+        
+    <div class="container">
+      
+      <div id="topnav" class="row">
+        <div class="span1">
+          <a class="bold" href="">apply</a>
+        </div>
+        <div class="span1">
+          <a href="">students</a>
+        </div>
+        <div class="span1">
+          <a href="">alumni</a>
+        </div>
+        <div class="span1">
+          <a href="">faculty</a>
+        </div>
+        <div class="span1">
+          <a href="">parents</a>
+        </div>
+        <div class="span1">
+          <a href="">staff</a>
+        </div>
+
+        <div class="span4 offset2">
+          <form class="form-search">
+            <input type="text" class="input-medium search-query">
+            <button type="submit" class="btn">Search</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span3">
+          <!--<h1>University of Louisiana</h1>-->
+          <a href="home.html"><img src="images/uofl.gif" /></a>
+        </div>
+
+        <div id="header-about" class="header span8 offset1">
+          <img class="about-pic" src="images/about_pic.jpg" />
+          <div class="bread">
+            <h1>About > Introduction</h1>
+          </div>
+          <div class="pitch">
+            <h1 class="pitch-text">WHATEVER YOUR PASSION,</h1>
+            <h1 class="pitch-subtext">YOU CAN FIND IT HERE.</h1>
+            <h4>University of Louisiana is the place where brilliant minds assemble and collaborate, where they pool together their individual talents across disciplines in service of big projects and big ideas.</h4>
+            <p>It is a vibrant community teeming with students collaboring with experts and specialists: a hub of innovation.  It is an intersection of disciplines, a launching pad for a brilliant career, and a highly unique state of mind.</p>
+            <p>It is a perfect environment in which to pursue your passion.  Here, the future is envisioned each day.  And remade each day after.</p>
+          </div>  
+        </div>
+        <div class="left-sidebar span3">
+          <div id="about">
+            <h2><a href="#">About</a></h2>
+            <ul class="parent-nav span3">
+              <li><a class="active" href="#">Introduction</a></li>
+              <ul class="child-nav span2">
+                <li><a href="#">Fast facts</a><li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Administration</a></li>
+                <li><a href="#">Maps &amp; Directions</a></li>
+                <li><a href="#">Visiting</a></li>
+              </ul>
+            </ul>
+          </div>
+          <div id="admission">
+            <h2><a href="#">Admission</a></h2>
+            <ul class="parent-nav span3 no-show">
+              <li><a href="#">Apply</a></li>
+              <ul class="child-nav span2">
+                <li><a href="#">Undergraduate</a></li>
+                <li><a href="#">Graduate</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Financial Aid</a></li>
+              </ul>
+          </div>
+          <div id="academics">  
+            <h2><a href="#">Academics</a></h2>
+            <ul class="parent-nav span3 no-show">
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Calendars</a></li>
+              <li><a href="#">Colleges</a></li>
+              <li><a href="#">Library</a></li>
+              <li><a href="#">Research</a></li>
+            </ul>
+          </div>
+          <div id="campus-life">
+            <h2><a href="#">Campus Life</a></h2>
+            <ul class="parent-nav span3 no-show">
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Athletics</a></li>
+              <li><a href="#">Campus Organizations</a></li>
+              <li><a href="#">Student Life</a></li>
+              <li><a href="#">Living at UL</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </div>
+          <div id="colleges">
+            <h2><a href="#">Colleges</a></h2>
+            <ul class="parent-nav span3 no-show">
+              <li><a href="#">Arts</a></li>
+              <li><a href="#">Business Administration</a><li>
+              <li><a href="#">Education</a><li>
+              <li><a href="#">Engineering</a></li>
+              <li><a href="#">Liberal Arts</a></li>
+              <li><a href="#">Nursing</a></li>
+              <li><a href="#">Sciences</a></li>
+            </ul>
+          </div>
+          <div id="contact-us">
+            <h2><a href="#">Contact Us</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>

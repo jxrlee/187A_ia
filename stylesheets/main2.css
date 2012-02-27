@@ -70,3 +70,26 @@ a, a:link, a:visited, a:active { color: #999; }
   color: #ffffff;
   background-color: #ccc;
 }
+
+
+/***
+
+***/
+
+.no-show { display: none; }
+.form-search { float:right; }
+.about-pic { width: inherit; height:250px; }
+.bread h1 { font-size: 90%; }
+.pitch h1 { color: #000; }
+.pitch h4 { color: #C42A00; margin-bottom: 40px; }
+.pitch .pitch-subtext { color: #C42A00; }
+
+#header-about { float:right; }
+.left-sidebar { padding-top: 20px; }
+.left-sidebar h2 { border-bottom: 1px solid #C42A00; }
+.left-sidebar h2 a { color: #C42A00; }
+.parent-nav li { border-left: 3px solid #C42A00; padding-left: 10px; margin-top: 10px; width: 187px; }
+.parent-nav ul li { width: 167px; }
+.parent-nav li a { color: #000; display: block; }
+.parent-nav li a.active { background-color: #C42A00; color: #FFF; }
+.parent-nav li a:hover { background-color: #C42A00; color: #FFF; }
