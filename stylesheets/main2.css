@@ -87,7 +87,7 @@ a, a:link, a:visited, a:active { color: #999; }
 #footer2 { text-align: center; }
 
 #header-about { float:right; padding-top: 0px; }
-!.left-sidebar { padding-top: 20px; }
+.left-sidebar { position: fixed; margin-top: 100px; }
 .left-sidebar h2 { border-bottom: 1px solid #C42A00; }
 .left-sidebar h2 a { color: #C42A00; }
 .parent-nav li { border-left: 3px solid #C42A00; padding-left: 10px; margin-top: 10px; width: 187px; }
